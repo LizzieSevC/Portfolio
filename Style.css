@@ -18,329 +18,46 @@ font-family: "PfefferMediaeval";
 src: url('./fonts/PfefferMediaeval.otf');
 }
 
-
-.hContainer {
-    margin: 0 auto;
-  }
-  
-.nav {
-    position: fixed;
-    background-color: #9376F5;
-    top: 0;
-    left: 0;
-    right: 0;
-    transition: all 0.3s ease-in-out;
-    z-index: 1;
-  }
-  
-  .nav .hContainer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2vw 0;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .nav ul {
-    display: flex;
-    list-style-type: none;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .nav a img{
-    padding: 1vw;
-  }
-
-  .logoHeader{
-    width: 15vw;
-    padding: 0px;
-  }
-
-    .headerImg{
-    width: 10vw;
+#cellNavbar{
+    background-color: #9476f5;
 }
 
-.nav.activeWhite{
-    background-color: #fff;
-  }
-
-.nav.activeBlack{
-    background-color: #000;
-  }
-
-.nav.activePurple{
-    background-color: #9376F5;
-    }
-
-h1{
-    text-align: center;
-    font-family: Longa Iberica;
-    font-size: 10vw;
-    padding-top: 15vw;
+.title{
+    font-family: NearAldus;
 }
 
-h3{
-    text-align: center;
-    font-family: Longa Iberica;
-    font-size: 5vw;
-    padding-top: 2vw;
+#subtitles{
+    font-family: NearAldus;
+    font-size: xx-large;
 }
 
-h5{
-    font-family: longa iberica;
-    font-size: 5vw;
+.avatar{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
-
-.skills{
-    background-image: url(./img/plumitasb.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
+.skillsTitles{
+    font-family: PfefferMediaeval;
+    font-size: larger;
 }
 
-.logos{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    transition: 0.3s;
+#projectsCard{
+    box-shadow: 5px 5px 13px 1px #9476f5;
 }
 
-.logos img:hover{
-    transform: scale(1.2) translateX(2px) translateY(2px) skewX(3deg) skewY(2deg);
-    
+.list-group-item{
+    background-color: #000000;
+    border-color: #ffffff;
 }
 
-.skillsLogos{
-    width: 15vw;
-    padding-bottom: 5vw;
+a:hover{
+    color: #9476f5;
 }
 
-.projects{
-    background-color: #9376F5;
-    color: black;
-}
-
-
-.container{
+footer{
+    background-color: #9476f54c;
     width: 100%;
-}
-
-.gridArk{
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
-.imgArk{
-width: 35vw;
-margin-top: 10vw;
-margin-bottom: 10vw;
-}
-
-.imgArk:hover{
-    filter: grayscale(50%) blur(5px);
-}
-
-.arkText{
-    position: absolute;
-    font-family: NearAldus;
-    font-size: 2.8vw;
-    top: 45%;
-    left: 45%;
-    transform: translate(-50%, -50%);
-    display: none;
-    }
-    
-.imgArk:hover + .arkText{
-    display: block;
-    color: rgb(255, 255, 255);
-    font-weight: bolder;
-    text-align: center;
-    text-shadow: 2px 2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, -2px -2px 0 #000000, 2px 0px 0 #000000, 0px 2px 0 #000000, -2px 0px 0 #000000, 0px -2px 0 #000000, 1px 1px 2px rgba(0,0,0,0);;
-    }
-
-.gridTetris{
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
-.imgTetris{
-width: 35vw;
-margin-top: 10vw;
-margin-bottom: 10vw;
-}
-
-.imgTetris:hover{
-    filter: grayscale(50%) blur(5px);
-}
-
-.tetrisText{
-    position: absolute;
-    font-family: NearAldus;
-    font-size: 2.8vw;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: none;
-    }
-
-.imgTetris:hover + .tetrisText{
-    display: block;
-    color: rgb(255, 255, 255);
-    font-weight: bolder;
-    text-align: center;
-    text-shadow: 2px 2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, -2px -2px 0 #000000, 2px 0px 0 #000000, 0px 2px 0 #000000, -2px 0px 0 #000000, 0px -2px 0 #000000, 1px 1px 2px rgba(0,0,0,0);;
-}
-
-.projectLinks{
-color: #9376F5;
-}
-
-
-.projectLinks:hover {
-    color: white;
-  }
-  
-/* unvisited link */
-.projectLinks:link {
-    color: #9376F5;
-    text-decoration: none;
-  }
-  
-
-
-.aboutMe{
-background-image: url(./img/plumitasw.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-color: black;
-width: 98%;
-padding-left: 2vw;
-}
-
-.aboutMeText{
-    text-align: center;
-    margin-top: 10vw;
-    margin-bottom: 10vw;
-    font-family: NearAldus;
-    font-size: 3.8vw;
-    text-shadow: 1px 1px 1vw white;
-}
-
-.pic1{
-    width: 15vw;
-    margin-top: 10vw;
-    margin-bottom: 10vw;
-    margin-right: 1vw;
-}
-
-.mb-3{
-    width: 30vw;
-}
-
-.formAM{
-    width: 32vw;
-    margin-top: 10vw;
-    margin-bottom: 10vw;
-    margin-left: 3vw;
-    background-color: black;
-    color: white;
-    border: 1vw solid black;
-    font-family: NearAldus;
-    font-size: 2.5vw;
-    }
-
-.formSpace{
-    width: 100%;
-    background-color: gray;
-    border: none;
-    border-radius: 5px;
-}
-
-form{
-    padding-bottom: 2vw;
-    padding-top: 0px;
-}
-form textarea{
-    margin-bottom: 0.5vw;
-}
-
-.sendButton{
-    outline: none;
-    border: none;
-    border-radius: 3px;
-    padding-left: 3vw;
-    padding-right: 3vw;
-    font-family: NearAldus;
-    font-size: 2vw;
-    margin: 0px;
-    background-color: white;
-}
-
-.sendButton:hover{
-    background-color: #9376F5;
-}
-
-
-.reviews{
-    background-image: url(./img/plumitasb.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    padding-bottom: 15vw;
-}
-
-.reviewContainer{
-    display: flex;
-    justify-content: center;
-}
-
-.slideReviews{
-    width: 50vw;
-    height: 50vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: NearAldus;
-    font-size: 2.5vw;
-    text-shadow: 2px 2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, -2px -2px 0 #000000, 2px 0px 0 #000000, 0px 2px 0 #000000, -2px 0px 0 #000000, 0px -2px 0 #000000, 1px 1px 2px rgba(0,0,0,0);;
-}
-
-.d-block{
-    width: 30vw;
-    height: 50vw;
-}
-
-.reviewLinks:hover {
-  color: white;
-}
-
-/* unvisited link */
-.reviewLinks:link {
-  color: #9376F5;
-  text-decoration: none;
-}
-
-
-
-.dev{
-    background-color: #9376F5;
-    font-family: LongaIberica;
-    color: white;
-    font-size: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 60px;
-   }
-
-   .devLogo{
-    width: 7vw;
-    height: 6vw;
-    margin-right: 20px;
-    margin-left: 20px;
 }
