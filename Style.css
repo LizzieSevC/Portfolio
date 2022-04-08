@@ -39,6 +39,17 @@ src: url('./fonts/PfefferMediaeval.otf');
     -o-border-radius: 50%;
 }
 
+.avatar:hover{
+    box-shadow: 5px 5px 25px 1px #9476f5;
+}
+
+.aboutMe{
+    text-align: center;
+    font-family: LongaIberica;
+    font-size: 50px;
+    color: #ffffff;
+}
+
 .skillsTitles{
     font-family: PfefferMediaeval;
     font-size: larger;
